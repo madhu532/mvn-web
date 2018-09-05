@@ -9,14 +9,14 @@ node {
 
        stage('BuildArtifact'){
 
-         // sh 'mvn install'
+          sh 'mvn install'
 	       
-	       sh 'mvn clean'
+	      // sh 'mvn clean'
        }
 	   
-      stage('Sonar') {
+     // stage('Sonar') {
                     //add stage sonar
                    // sh 'mvn sonar:sonar'
-                }
+       //         }
        
 }
