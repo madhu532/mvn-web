@@ -14,7 +14,7 @@ node {
                sh 'mvn clean'
        }
 
-      stage('Sonar') {
+      //stage('Sonar') {
                     //add stage sonar
                    // sh 'mvn sonar:sonar'
                 }
